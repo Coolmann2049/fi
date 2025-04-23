@@ -20,6 +20,9 @@ app.post('/', (req, res) => {
 app.get('/test', (req, res) => {
   res.send('Test fucking works.');
 });
+app.get('/linkedin-test', (req, res) => {
+  res.send('linkedin redirected successfully');
+});
 
 // Start the server
 app.listen(port, () => {
