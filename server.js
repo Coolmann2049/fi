@@ -68,7 +68,7 @@ app.get('/instagram-auth', (req, res) => {
     // Instagram token exchange endpoint
     const tokenEndpoint = 'https://api.instagram.com/oauth/access_token';
     const clientId = '544149758732989'; // Instagram app ID
-    const clientSecret = 'YOUR_INSTAGRAM_CLIENT_SECRET'; // Replace with your Instagram app secret
+    const clientSecret = 'c50caf8b3626ea841efc40cff14c74af'; // Replace with your Instagram app secret
     const redirectUri = 'https://blulink-webhook-test.onrender.com/instagram-auth';
     
     // Create form data for Instagram's token endpoint
